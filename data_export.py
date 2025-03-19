@@ -10,6 +10,8 @@ try:
     archivo_excel = 'clientes_ordenados.xlsx'
     data_ordenada.to_excel(archivo_excel, index=False)
     #cambio
+    #otro cambio
+    
     
     print(f"Datos exportados exitosamente a {archivo_excel}")
 except Exception as e:
